@@ -83,9 +83,3 @@ class Map
     arr.map { |el| el.is_a?(Array) ? deep_dup(el) : el }
   end
 end
-
-if __FILE__ == $PROGRAM_NAME
-  stack = Stack.new
-  queue = Queue.new
-
-end
