@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hello, <%= @user.username %>!</h1>
+    <p>
+      You have successfully signed up for 99cats.com!
+      Your username is: <%= @user.username %>.<br/>
+    </p>
+    <p>
+      To login to the site, use this link: <%= @url %>.
+    </p>
+    <p>Click a cat now! <%= @url %></p>
+  </body>
+</html>
